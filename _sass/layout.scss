@@ -23,7 +23,7 @@ header {
 	width: 100%;
 
 	a {
-		color: #ffffff;
+		color: #fff;
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -116,7 +116,7 @@ animation: AnimationName 30s ease infinite;
 		}
 
 		a:not(.button) {
-			color: #ffffff;
+			color: #fff;
 			// font-style: italic;
 			text-decoration: underline;
 		}
