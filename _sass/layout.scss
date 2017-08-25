@@ -75,7 +75,7 @@ section {
 	}
 
 	&.hero {
-		color: #ffffff;
+		color: #fff;
 	background: linear-gradient(270deg, #00a359, #2eb2ff);
 background-size: 400% 400%;
 
@@ -123,7 +123,7 @@ animation: AnimationName 30s ease infinite;
 	}
 
 	&.alternate {
-			color: #ffffff;
+			color: #fff;
 	background: linear-gradient(270deg, #00a359, #2eb2ff);
 background-size: 400% 400%;
 
@@ -162,7 +162,7 @@ animation: AnimationName 30s ease infinite;
 	text-decoration: none !important;
 
 	&:hover {
-		color: #ffffff;
+		color: #fff;
 	background: linear-gradient(270deg, #00a359, #2eb2ff);
 background-size: 400% 400%;
 
@@ -189,7 +189,7 @@ animation: AnimationName 30s ease infinite;
 
 	&:active {
 		opacity: 1;
-			color: #ffffff;
+			color: #fff;;
 	background: linear-gradient(270deg, #00a359, #2eb2ff);
 background-size: 400% 400%;
 
