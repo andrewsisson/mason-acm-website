@@ -21,11 +21,10 @@ animation: AnimationName 30s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-  width: 50%;
-  margin: auto;
+
 }
 .fixedwidth{
-  min-width: 580px;
+  min-width: 0px;
 }
 /*-----------------------------------------------SRM SLIDER--*/
 #quote-slider{
