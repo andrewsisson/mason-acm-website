@@ -16,11 +16,18 @@ $tablet: "(min-width: 450px)";
 $mid-point: "(min-width: 620px)";
 $desktop: "(min-width: 768px)";
 
+@font-face {
+    font-family: 'POLYA';
+    src: url('fonts/POLYA.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 $section-rotation: 5deg;
 
-$font-family-header: "POLYA", Arial, sans-serif;
+$font-family-header: 'POLYA', "Raleway";
 
-$font-family-body: "Raleway", Arial, sans-serif;
+$font-family-body: "Raleway", "Raleway";
 
 @import "elements";
 @import "layout";
