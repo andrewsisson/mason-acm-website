@@ -24,10 +24,10 @@ $desktop: "(min-width: 768px)";
 }
 
 $section-rotation: 5deg;
+ font-family: POLYA, Raleway, serif;
+$font-family-header: 'POLYA', "Raleway", serif;
 
-$font-family-header: 'POLYA', "Raleway";
-
-$font-family-body: "Raleway", "Raleway";
+$font-family-body: "Raleway", "Raleway", serif;
 
 @import "elements";
 @import "layout";
