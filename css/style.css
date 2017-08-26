@@ -31,7 +31,7 @@ animation: AnimationName 30s ease infinite;
 #quote-slider{
     height: 195px;
     padding: 70px 0 0 18px;
-   
+    box-sizing: border-box;
     position: relative;
     max-width:100%;
     overflow: hidden;
