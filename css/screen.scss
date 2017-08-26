@@ -19,9 +19,9 @@ $desktop: "(min-width: 768px)";
 
 $section-rotation: 5deg;
 
-$font-family-header: "Raleway", serif;
+$font-family-header: "Raleway", Arial, sans-serif;
 
-$font-family-body: "Raleway", serif;
+$font-family-body: "Roboto Condensed", Arial, sans-serif;
 
 @import "elements";
 @import "layout";
