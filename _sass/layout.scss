@@ -6,11 +6,11 @@
 }
 
 .text-container {
-	max-width: 3000px;
+	max-width: 1000px;
 }
 
 .container {
-	max-width: 3000px;
+	max-width: 1000px;
 	
 }
 
@@ -272,6 +272,7 @@ animation: AnimationName 30s ease infinite;
 
 		img {
 			min-width: 100%;
+			margin: auto;
 		}
 
 		> a:hover {
@@ -289,6 +290,7 @@ animation: AnimationName 30s ease infinite;
 			left: 50%;
 			top: 50%;
 			transform: translateX(-50%) translateY(-50%);
+			margin: auto;
 		}
 	}
 
