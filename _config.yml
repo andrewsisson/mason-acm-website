@@ -34,6 +34,9 @@ gems:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-archives"
+  
+  uploads_dir: "/images"
+
 
 defaults:
   - scope:
