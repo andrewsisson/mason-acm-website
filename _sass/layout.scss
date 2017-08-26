@@ -66,7 +66,7 @@ section {
 		-ms-transform: skewY(-$section-rotation);
 		transform: skewY(-$section-rotation);
 
-		> div {
+		 div {
 			-webkit-transform: skewY($section-rotation);
 			-moz-transform: skewY($section-rotation);
 			-ms-transform: skewY($section-rotation);
