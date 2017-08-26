@@ -3,6 +3,10 @@ url: "https://acm.masonhackclub.tech"
 email: masonacmofficial@gmail.com
 uploads_dir: "/images"
 
+_editable_regions:
+  image:
+    url_src: true
+
 # Default description in social shares for the jekyll-seo-tag gem
 description: William Mason High School's student chapter of the Association for Computing Machinery.
 
