@@ -339,6 +339,7 @@ animation: AnimationName 30s ease infinite;
 @media #{$phone} {
 	section {
 		padding: 100px 0;
+		margin: 0 auto;
 
 		&.diagonal {
 			-webkit-transform: none;
