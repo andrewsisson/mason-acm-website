@@ -1,6 +1,6 @@
 var theSlide = 2,
     numSlides = 4,
-    frequency = 1000,
+    frequency = 5000,
     lastButton = "#quote-1";
 
 var slide = function(){
