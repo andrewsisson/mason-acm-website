@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(270deg, #00a359, #2eb2ff);
+   background: linear-gradient(270deg, #00a359, #2eb2ff);
 background-size: 400% 400%;
 
 -webkit-animation: AnimationName 30s ease infinite;
@@ -25,28 +25,39 @@ animation: AnimationName 30s ease infinite;
   margin: auto;
 }
 .fixedwidth{
-  min-width: 1000px;
+  min-width: 580px;
 }
 /*-----------------------------------------------SRM SLIDER--*/
-
+#quote-slider{
+    height: 195px;
+    padding: 70px 0 0 18px;
+    box-sizing: border-box;
+    position: relative;
+    max-width:100%;
+    overflow: hidden;
+}
 .quote{
     position: relative;
 }
 .slider-quote {
     transition: 1.5s;
-    
+    color: #fff;
     position:absolute;
     top: 0;
     left: -200%;
     font-size: 26px;
-    font-family: Raleway, open sans, sans-serif;
+    font-family: lato, open sans, sans-serif;
     line-height: 1.25;
     min-width: 100%;
 }
 .slider-quote span{
     font-size: 14px;
 }
-
+.controls {
+    padding: 0 3px;
+    position: absolute;
+    top: 135px;
+}
 .quote-control{
     margin-top: 18px;
     display: inline-block;
@@ -54,11 +65,11 @@ animation: AnimationName 30s ease infinite;
     width: 8px;
     background-color: transparent;
     border-radius: 50%;
-    
+    border: 1px solid #fff;
     margin-right: 8px;
 }
 .selected{
-    
+    background-color: rgba(2555,255,255,.3)
 }
 .in-focus{
     transition: 1.5s;
