@@ -28,14 +28,7 @@ animation: AnimationName 30s ease infinite;
   min-width: 1000px;
 }
 /*-----------------------------------------------SRM SLIDER--*/
-#quote-slider{
-    height: 195px;
-    padding: 70px 0 0 18px;
-    box-sizing: border-box;
-    position: relative;
-    max-width:100%;
-    overflow: hidden;
-}
+
 .quote{
     position: relative;
 }
@@ -53,24 +46,9 @@ animation: AnimationName 30s ease infinite;
 .slider-quote span{
     font-size: 14px;
 }
-.controls {
-    padding: 0 3px;
-    position: absolute;
-    top: 135px;
-}
-.quote-control{
-    margin-top: 18px;
-    display: inline-block;
-    height: 8px;
-    width: 8px;
-    background-color: transparent;
-    border-radius: 50%;
-    
-    margin-right: 8px;
-}
-.selected{
-    
-}
+
+
+
 .in-focus{
     transition: 1.5s;
     left:0;
