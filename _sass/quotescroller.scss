@@ -1,0 +1,28 @@
+.o-preloader__text--js-cycle {
+  color: green;
+  animation-name: text-cycle;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes text-cycle {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.test1 {
+  green;
+}
