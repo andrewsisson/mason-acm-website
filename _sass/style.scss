@@ -47,8 +47,19 @@ animation: AnimationName 30s ease infinite;
     font-size: 14px;
 }
 
-
-
+.quote-control{
+    margin-top: 18px;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: transparent;
+    border-radius: 50%;
+    
+    margin-right: 8px;
+}
+.selected{
+    
+}
 .in-focus{
     transition: 1.5s;
     left:0;
