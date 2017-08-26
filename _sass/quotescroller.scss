@@ -20,7 +20,7 @@ body{
 }
 .slider-quote {
     transition: 1.5s;
-    color: #fff;
+  
     position:absolute;
     top: 0;
     left: -200%;
@@ -39,13 +39,13 @@ body{
 }
 .quote-control{
     margin-top: 18px;
-    display: inline-block;
+    
     height: 8px;
     width: 8px;
-    background-color: transparent;
+   
     border-radius: 50%;
-    border: 1px solid #fff;
-    margin-right: 8px;
+    
+    m
 }
 .selected{
     background-color: transparent;
