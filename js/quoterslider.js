@@ -1,37 +1,46 @@
-function animate() {
+var theSlide = 2,
+    numSlides = 4,
+    frequency = 2500,
+    lastButton = "#quote-1";
 
-  var array = ['Combobulating personality cores', 'Disentangling superstring matrix', 'Deserialising reality simulation', 'Crystallising expectation graphs', 'Analysing cerebral emission spectrum'];
+var slide = function(){
+    var	currentSlide = "#quote-"+theSlide+"-content",
+				lastSlide = lastButton+"-content",
+        currentButton = "#quote-"+theSlide;
 
-  function shuffle(arr) {
-    for (var i = arr.length - 1; i >= 0; i--) {
+    $(".slider-quote").removeClass("in-focus");
+    $(".quote-control").removeClass("selected");
+    $(currentSlide).addClass("in-focus");
+    $(currentButton).addClass("selected");
 
-      var randomIndex = Math.floor(Math.random() * (i + 1));
-      var itemAtIndex = arr[randomIndex];
 
-      arr[randomIndex] = arr[i];
-      arr[i] = itemAtIndex;
+    lastButton = currentButton;
+    if(theSlide < numSlides){
+        theSlide += 1;
     }
-  }
+    else{
+        theSlide = 1;
+    }
+};
 
-  var index = 0;
+var interval = setInterval(slide, frequency);
+
+$(function(){
+
+    $("div#quote-slider").mouseover(function(){
+        clearInterval(interval);
+    }).mouseout(function(){
+        interval = setInterval(slide, frequency);
+    });
   
-  function loop() {
+  	$(".quote-control").click(function(e){
+      	clearInterval(interval);
+        $(".slider-quote").removeClass("in-focus");
+    		$(".quote-control").removeClass("selected");
+      	var quoteSlider = "#"+$(this).attr("id")+"-content";
+      	$(quoteSlider).addClass("in-focus");
+      	$(this).addClass("selected");
+      	$("div#quote-slider").unbind('mouseover mouseout');
+    });
 
-    if (index < 4) {
-      index++;
-    } else {
-      index = 0;
-    }
-
-    arrayValue = array[index];
-    document.getElementById("js-preloader").innerHTML = arrayValue;
-    document.getElementById("js-preloader").className = '';
-    document.getElementById("js-preloader").className = 'o-preloader__text o-preloader__text--js-cycle';
-  }
-
-  shuffle(array);
-  loop();
-  setInterval(loop, 6000);
-}
-
-animate();
+});
