@@ -1,17 +1,18 @@
 <!doctype html>
+
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
 
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:400,400i,700,700i" rel="stylesheet">
 
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 
 	<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="1000x1000">
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}/Images/5webtab.png">
+	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 
 	{% seo %}
 	{% feed_meta %}
@@ -27,31 +28,13 @@
 			ga("send", "pageview");
 		</script>
 	{% endif %}
-
-	<style>
-div.img {
-
-  margin: 0 auto; 
-}
-    
-
- 
-	
-
-</style>
-
 </head>
 	<body>
 		<header>
-		    <div class="container">
-		        <div class="img">
-		      
-		
-		        
-			        <h1 class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.png" alt="Mason ACM" width="200"> </a></h1>
+			<div class="container">
+				<h1 class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="Urban" width="150"></a></h1>
 				{% include navigation.html %}
-			   </div>
-			   </div>
+			</div>
 		</header>
 		{{ content }}
 
